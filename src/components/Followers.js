@@ -24,7 +24,6 @@ const Followers = () => {
     </Wrapper>
   );
 };
-  
 
 const Wrapper = styled.article`
   background: var(--clr-white);
