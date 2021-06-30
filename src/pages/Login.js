@@ -1,13 +1,13 @@
 import React from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
 import styled from 'styled-components';
-import loginImg from '../images/login-img.svg';
+import loginImg from '../images/login-img.png';
 const Login = () => {
   return (
     <Wrapper>
       <div className='container'>
         <img src={loginImg} alt='github user' />
-        <h1>GitUser</h1>
+        <h1>GitaUser</h1>
         <button className='btn' >
           Log In / Sign Up
         </button>
