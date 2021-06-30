@@ -8,7 +8,7 @@
 
 <hr>
 
-<!-- ![Main View](https://github.com/miadugas/ImageShrinker/blob/main/assets/imageShrinker.png) -->
+![Main View](https://github.com/miadugas/gitadev/blob/main/src/images/gitadevgit.png)
 
 <hr>
 
