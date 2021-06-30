@@ -3,7 +3,7 @@
 <hr>
 
 ## Description 
-
+ReactJS app that allows visitors to search github users and display useful info about the users. Auth0 login allowing Google, Twitter and LinkedIn account connection.
 
 
 <hr>
@@ -13,7 +13,7 @@
 <hr>
 
 ## Technology Used
-React, React Router Dom, Fusion Charts, GitHub API, Auth0, Local Storage,
+React, React Router Dom, React Hooks, Fusion Charts, GitHub API, Auth0, Local Storage,
 
 ### Notes:
 * GitHub API - For unauthenticated requests, the rate limit allows for up to 60 requests per hour.
@@ -22,7 +22,7 @@ React, React Router Dom, Fusion Charts, GitHub API, Auth0, Local Storage,
 
 <hr>
 
-### Additional Styling Framework
+### Additional Styling Framework & Non-Techincal tech
 Styled Components, React Icons
 
 <hr>
