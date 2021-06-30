@@ -13,11 +13,12 @@
 <hr>
 
 ## Technology Used
-React, React Router Dom, Fusion Charts, GitHub API, Auth0, Local Storage
+React, React Router Dom, Fusion Charts, GitHub API, Auth0, Local Storage,Styled-Components
 
 ### Notes:
-GitHub API - For unauthenticated requests, the rate limit allows for up to 60 requests per hour.
-Private Route to prevent unauthorized logins
+* GitHub API - For unauthenticated requests, the rate limit allows for up to 60 requests per hour.
+
+* Private Route to prevent unauthorized logins
 
 <hr>
 
