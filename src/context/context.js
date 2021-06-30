@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import mockUser from './mockData.js/mockUser';
-import mockRepos from './mockData.js/mockRepos';
-import mockFollowers from './mockData.js/mockFollowers';
+// import mockUser from './mockData.js/mockUser';
+// import mockRepos from './mockData.js/mockRepos';
+// import mockFollowers from './mockData.js/mockFollowers';
 import axios from 'axios';
 
 const rootUrl = 'https://api.github.com';
@@ -11,9 +11,13 @@ const GithubContext = React.createContext();
 // Provider, Consumer - GithubContext.Provider
 
 const GithubProvider = ({ children }) => {
-  const [githubUser, setGithubUser] = useState(mockUser);
-  const [repos, setRepos] = useState(mockRepos);
-  const [followers, setFollowers] = useState(mockFollowers);
+  const [githubUser, setGithubUser] = useState();
+  //const [githubUser, setGithubUser] = useState(mockUser);
+  const [repos, setRepos] = useState();
+  //const [repos, setRepos] = useState(mockRepos);
+  const [followers, setFollowers] = useState();
+  //const [followers, setFollowers] = useState(mockFollowers);
+
   // request loading
   const [requests, setRequests] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
@@ -74,7 +78,7 @@ const GithubProvider = ({ children }) => {
   useEffect(checkRequests, []);
   // get initial user
   useEffect(() => {
-    searchGithubUser('john-smilga');
+    searchGithubUser('miadugas');
   }, []);
   return (
     <GithubContext.Provider
